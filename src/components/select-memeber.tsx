@@ -134,7 +134,7 @@ export default function SelectMember() {
           value={restaurantName}
           id="food"
           spellCheck={false}
-          className="h-full flex-1 border-2 active:border-emerald-400 focus:border-emerald-400 outline-none"
+          className="h-full flex-1 border-2 active:border-emerald-400 focus:border-emerald-400 outline-none text-black"
           onChange={handleChange}
         />
       </div>
@@ -148,7 +148,7 @@ export default function SelectMember() {
           value={otherTeam}
           id="member"
           spellCheck={false}
-          className="h-full flex-1 border-2 active:border-emerald-400 focus:border-emerald-400 outline-none"
+          className="h-full flex-1 border-2 active:border-emerald-400 focus:border-emerald-400 outline-none text-black"
           onChange={handleChangeOptional}
         />
       </div>

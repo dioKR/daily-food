@@ -14,6 +14,7 @@ const teamMember = [
   "정광필",
   "신준영",
   "오예환",
+  "이준호",
 ];
 
 type STATUS = "success" | "fail" | null;

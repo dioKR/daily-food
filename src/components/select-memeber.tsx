@@ -105,7 +105,7 @@ export default function SelectMember() {
     <div className="flex min-h-screen flex-col gap-y-10 items-center p-12">
       <div>일용할 양식</div>
 
-      <ul className="w-full h-full grid grid-cols-2 gap-x-5  gap-y-5">
+      <ul className="w-full grid grid-cols-2 gap-x-5  gap-y-5">
         {teamMember.map((i) => {
           return (
             <li
@@ -124,7 +124,7 @@ export default function SelectMember() {
         })}
       </ul>
 
-      <div className="w-full h-12 flex items-center gap-x-5 border-emerald-400">
+      <div className="w-full h-12 flex items-center gap-x-5 border-emerald-400 overflow-hidden">
         <label htmlFor="food" className="flex-2">
           식당
         </label>

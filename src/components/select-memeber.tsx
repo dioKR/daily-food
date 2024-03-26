@@ -104,7 +104,7 @@ export default function SelectMember() {
 
   return (
     <div className="flex min-h-screen flex-col gap-y-10 items-center p-12">
-      <div>일용할 양식</div>
+      <div>일용할 양식 🤩</div>
 
       <ul className="w-full grid grid-cols-2 gap-x-5  gap-y-5">
         {teamMember.map((i) => {
